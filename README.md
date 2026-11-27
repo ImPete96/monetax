@@ -51,15 +51,30 @@ B ↔ C khi đã có số liệu; cửa sổ eTax; cập nhật mẫu HTKK trong
 
 ### Mở lần đầu
 
-App chưa được Apple công chứng (notarize), chỉ ký ad-hoc. Lần đầu mở, macOS báo không mở được vì không kiểm tra được
-nhà phát triển. Cách mở:
+App chưa được Apple công chứng (notarize), chỉ ký ad-hoc. Lần đầu mở, macOS hiện hộp **"Monetax" chưa được mở**
+("Apple không thể xác minh rằng Monetax không chứa phần mềm độc hại…") với hai nút **Chuyển vào Thùng rác** và
+**Xong**. Đây là cảnh báo dành cho mọi app chưa công chứng, không phải app bị hỏng. Cách mở:
 
-1. Mở app một lần như bình thường, bấm **Xong** (hoặc **OK**) ở hộp cảnh báo.
+1. Bấm **Xong**. Đừng bấm **Chuyển vào Thùng rác**.
 2. Vào **Cài đặt hệ thống → Quyền riêng tư & Bảo mật**, kéo xuống phần **Bảo mật**.
 3. Có dòng báo "Monetax" đã bị chặn: bấm **Vẫn mở**, rồi nhập mật khẩu máy hoặc dùng Touch ID để xác nhận.
+4. macOS hỏi lại một lần nữa: bấm **Vẫn mở**. Từ lần sau app mở bình thường.
 
-Tên các mục trên lấy theo macOS 14 và 15 bản tiếng Việt; bản macOS khác có thể ghi hơi khác. Chỉ làm vậy với tệp
-`.dmg` tải từ trang Releases của repo này.
+Dòng **Vẫn mở** chỉ hiện trong khoảng một giờ sau lần bị chặn. Không thấy thì mở app lại một lần rồi vào lại
+Cài đặt.
+
+**Cách khác, dùng Terminal.** Sau khi đã kéo Monetax vào Applications, mở **Terminal** (trong Applications →
+Tiện ích), dán dòng dưới, bấm Return, rồi mở app như bình thường:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/Monetax.app
+```
+
+Lệnh này chỉ gỡ dấu "tải từ Internet" mà macOS gắn vào app; không cần mật khẩu, không đổi cài đặt bảo mật của máy.
+
+Khi tải `.dmg` mới rồi kéo đè lên bản cũ, macOS có thể hỏi lại: làm lại các bước trên. Tên các mục lấy theo macOS 14
+và 15 bản tiếng Việt; bản macOS khác có thể ghi hơi khác. Chỉ làm vậy với tệp `.dmg` tải từ trang Releases của repo
+này.
 
 ## Cập nhật
 
