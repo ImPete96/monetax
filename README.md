@@ -31,7 +31,7 @@ tờ khai thay bạn.
 - **Lập tờ khai: Chưa hỗ trợ** (từ bản 1.0.1). Cục Thuế chỉ nhận tờ khai theo Thông tư 89; trang Lập tờ khai liệt kê
   các mẫu để tra cứu và mở Thuế điện tử hoặc Cổng Dịch vụ công để khai trực tiếp.
 - **Ô tiền.** Khi gõ số tiền, ô tự thêm dấu chấm phân nhóm.
-- **Cổng hóa đơn (thử nghiệm).** Mở trang hóa đơn điện tử của Tổng cục Thuế trong app; bạn tự đăng nhập, app dùng
+- **Cổng hóa đơn (thử nghiệm).** Mở trang hóa đơn điện tử của Cục Thuế trong app; bạn tự đăng nhập, app dùng
   phiên đó để tải hóa đơn. Phần này chưa được xác minh bằng một lần dùng thật, có thể không chạy.
 
 Chưa có trong 1.0: lập tờ khai; hướng dẫn cho người mới; sổ HKD S3a; chuyển sổ giữa TT 133 và TT 99; đổi sổ HKD trường hợp
