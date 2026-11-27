@@ -28,13 +28,13 @@ tờ khai thay bạn.
   1 tỷ đồng/năm.
 - **Cài đặt dạng thẻ:** giao diện, cỡ chữ, người nộp thuế, sổ kế toán, sao lưu và hệ thống.
 - **Cảnh báo, Tổng quan, bảng lệnh ⌘K.**
-- **Lập tờ khai 01/GTGT.** Nhập, kiểm tra và kết xuất XML để nộp tại Thuế điện tử; các mẫu khác hiện Chưa hỗ trợ và
-  hiển thị cổng nộp tương ứng.
+- **Lập tờ khai: Chưa hỗ trợ** (từ bản 1.0.1). Cục Thuế chỉ nhận tờ khai theo Thông tư 89; trang Lập tờ khai liệt kê
+  các mẫu để tra cứu và mở Thuế điện tử hoặc Cổng Dịch vụ công để khai trực tiếp.
 - **Ô tiền.** Khi gõ số tiền, ô tự thêm dấu chấm phân nhóm.
 - **Cổng hóa đơn (thử nghiệm).** Mở trang hóa đơn điện tử của Tổng cục Thuế trong app; bạn tự đăng nhập, app dùng
   phiên đó để tải hóa đơn. Phần này chưa được xác minh bằng một lần dùng thật, có thể không chạy.
 
-Chưa có trong 1.0: mẫu tờ khai ngoài 01/GTGT; hướng dẫn cho người mới (dự kiến bản 1.0.1); sổ HKD S3a; chuyển sổ giữa TT 133 và TT 99; đổi sổ HKD trường hợp
+Chưa có trong 1.0: lập tờ khai; hướng dẫn cho người mới; sổ HKD S3a; chuyển sổ giữa TT 133 và TT 99; đổi sổ HKD trường hợp
 B ↔ C khi đã có số liệu; cửa sổ eTax; cập nhật mẫu HTKK trong app; cảnh báo từng kho trên danh sách người nộp thuế;
 đề xuất nghiệp vụ mua vào/sao kê và nối TSCĐ cho HKD C. Cổng hóa đơn vẫn ở trạng thái thử nghiệm.
 
